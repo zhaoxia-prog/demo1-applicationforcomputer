@@ -11,7 +11,7 @@
         <column_label>Request By</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>javascript:gs.getUserID();</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -19,7 +19,7 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value/>
+        <dynamic_default_value display_value="Me">90d1921e5f510100a9ad2572f2b477fe</dynamic_default_value>
         <dynamic_ref_qual/>
         <element>request_by</element>
         <element_reference>false</element_reference>
@@ -53,12 +53,12 @@
         <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
         <sys_update_name>sys_dictionary_x_1755581_comput_0_computer_request_request_by</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-21 09:31:31</sys_updated_on>
+        <sys_updated_on>2025-05-21 10:37:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
+        <use_dynamic_default>true</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <virtual_type>script</virtual_type>

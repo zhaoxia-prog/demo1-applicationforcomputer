@@ -11,7 +11,7 @@
             </choice>
         </element>
         <element display="true" label="Request For" mandatory="true" max_length="32" name="request_for" reference="sys_user" type="reference"/>
-        <element label="Request By" max_length="32" name="request_by" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Request By" max_length="32" name="request_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element choice="3" default="dell_optiplex_7080" label="Computer Model" mandatory="true" max_length="32" name="computer_model" type="choice">
             <choice>
                 <element inactive_on_update="false" label="HP EliteDesk 800 G6" sequence="1" value="hp_elitedesk_800_g6"/>

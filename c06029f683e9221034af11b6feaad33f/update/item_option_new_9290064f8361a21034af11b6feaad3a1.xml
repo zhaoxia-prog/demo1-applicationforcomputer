@@ -5,8 +5,8 @@
         <cat_item display_value="Computer Request">65cf710f8361a21034af11b6feaad36a</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>computer_model</choice_field>
+        <choice_table>x_1755581_comput_0_inventory_computer</choice_table>
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
@@ -79,18 +79,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-21 03:29:06</sys_created_on>
         <sys_id>9290064f8361a21034af11b6feaad3a1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Computer model</sys_name>
         <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
         <sys_update_name>item_option_new_9290064f8361a21034af11b6feaad3a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-21 09:29:31</sys_updated_on>
+        <sys_updated_on>2025-05-21 10:00:18</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>5</type>
+        <type>18</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
