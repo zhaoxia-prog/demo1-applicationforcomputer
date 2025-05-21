@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 06:44:15</sys_created_on>
+        <sys_id>cef3653e83e9221034af11b6feaad3de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755581_comput_0_inventory_computer.x_1755581_comput_0.manager</sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
+        <sys_security_acl display_value="x_1755581_comput_0_inventory_computer">caf3253e83e9221034af11b6feaad3e2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cef3653e83e9221034af11b6feaad3de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 06:44:15</sys_updated_on>
+        <sys_user_role display_value="x_1755581_comput_0.manager" name="x_1755581_comput_0.manager">c1e1297a83e9221034af11b6feaad37f</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</application>
+        <file_path/>
+        <instance_id>03b9a1c8fb99a2181feef633beefdcfe</instance_id>
+        <instance_name>dev339253</instance_name>
+        <name>sys_security_acl_role_cef3653e83e9221034af11b6feaad3de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 06:44:15</sys_created_on><sys_id>cef3653e83e9221034af11b6feaad3de</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1755581_comput_0_inventory_computer.x_1755581_comput_0.manager</sys_name><sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package><sys_policy/><sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope><sys_security_acl display_value="x_1755581_comput_0_inventory_computer">caf3253e83e9221034af11b6feaad3e2</sys_security_acl><sys_update_name>sys_security_acl_role_cef3653e83e9221034af11b6feaad3de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 06:44:15</sys_updated_on><sys_user_role display_value="x_1755581_comput_0.manager" name="x_1755581_comput_0.manager">c1e1297a83e9221034af11b6feaad37f</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-57287741</payload_hash>
+        <record_name>x_1755581_comput_0_inventory_computer.x_1755581_comput_0.manager</record_name>
+        <reverted_from/>
+        <source>c86029f683e9221034af11b6feaad340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 06:44:15</sys_created_on>
+        <sys_id>c2f3653e83e9221034af11b6feaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196ec6f8b7e0000002</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 06:44:15</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>c6f3653e7de92210a2c9e1e29d5a14e1</update_guid>
+        <update_guid_history>c6f3653e7de92210a2c9e1e29d5a14e1:-57287741</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1755581_comput_0_inventory_computer.x_1755581_comput_0.manager">0aa569be83e9221034af11b6feaad3d8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 06:51:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>23291236530b4834b202c34b11f548c4</sys_id>
+        <sys_metadata>cef3653e83e9221034af11b6feaad3de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1755581_comput_0_inventory_computer.x_1755581_comput_0.manager</sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
+        <sys_parent display_value="x_1755581_comput_0_inventory_computer">caf3253e83e9221034af11b6feaad3e2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
+        <sys_scope_delete display_value="">7c4851e1eff34146aa688165f5977e59</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_cef3653e83e9221034af11b6feaad3de</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_cef3653e83e9221034af11b6feaad3de">c2f3653e83e9221034af11b6feaad3e2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 06:51:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

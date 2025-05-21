@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="33d1e57a83e9221034af11b6feaad316" label="Computer Request" max_length="40" name="x_1755581_comput_0_computer_request" type="collection">
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Assigned Date" max_length="40" name="assigned_date" type="glide_date"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element choice="3" default="pending_approval" label="Approval Status" mandatory="true" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending Approval" sequence="0" value="pending_approval"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element display="true" label="Request For" mandatory="true" max_length="32" name="request_for" reference="sys_user" type="reference"/>
+        <element label="Request By" max_length="32" name="request_by" reference="sys_user" type="reference"/>
+        <element choice="3" default="dell_optiplex_7080" label="Computer Model" mandatory="true" max_length="32" name="computer_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="HP EliteDesk 800 G6" sequence="1" value="hp_elitedesk_800_g6"/>
+                <element inactive_on_update="false" label="Acer Aspire 5 A515-56" sequence="5" value="acer_aspire_5_a515_56"/>
+                <element inactive_on_update="false" label="Microsoft Surface Laptop 4" sequence="6" value="microsoft_surface_laptop_4"/>
+                <element inactive_on_update="false" label="Lenovo ThinkPad X1 Carbon" sequence="2" value="lenovo_thinkpad_x1_carbon"/>
+                <element inactive_on_update="false" label="Apple iMac 27-inch" sequence="3" value="apple_imac_27_inch"/>
+                <element inactive_on_update="false" label="Dell Precision 5560" sequence="7" value="dell_precision_5560"/>
+                <element inactive_on_update="false" label="Dell OptiPlex 7080" sequence="0" value="dell_optiplex_7080"/>
+                <element inactive_on_update="false" label="ASUS VivoBook S15" sequence="4" value="asus_vivobook_s15"/>
+                <element inactive_on_update="false" label="HP Z2 Mini G9" sequence="8" value="hp_z2_mini_g9"/>
+                <element inactive_on_update="false" label="Lenovo IdeaPad 3 15ARE05" sequence="9" value="lenovo_ideapad_3_15are05"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="request_by"/>
+        </index>
+        <index name="index3">
+            <element name="request_for"/>
+        </index>
+    </element>
+</database>

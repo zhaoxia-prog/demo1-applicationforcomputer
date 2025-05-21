@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1755581_comput_0.user" name="x_1755581_comput_0.user">506029f683e9221034af11b6feaad36e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 06:28:33</sys_created_on>
+        <sys_id>d46029f683e9221034af11b6feaad36f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>506029f683e9221034af11b6feaad36e</sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d46029f683e9221034af11b6feaad36f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 06:28:33</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

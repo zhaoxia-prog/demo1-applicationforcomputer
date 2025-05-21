@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request New Hire Computer">f00ea9ba832d221034af11b6feaad37c</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 07:39:28</sys_created_on>
+        <sys_id>0f90f1be832d221034af11b6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request New Hire Computer</sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_0f90f1be832d221034af11b6feaad331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 07:39:28</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</application>
+        <file_path/>
+        <instance_id>03b9a1c8fb99a2181feef633beefdcfe</instance_id>
+        <instance_name>dev339253</instance_name>
+        <name>sc_cat_item_catalog_0f90f1be832d221034af11b6feaad331</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request New Hire Computer">f00ea9ba832d221034af11b6feaad37c</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-20 07:39:28</sys_created_on><sys_id>0f90f1be832d221034af11b6feaad331</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request New Hire Computer</sys_name><sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package><sys_policy/><sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope><sys_update_name>sc_cat_item_catalog_0f90f1be832d221034af11b6feaad331</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-20 07:39:28</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-559570012</payload_hash>
+        <record_name>Service Catalog.Request New Hire Computer</record_name>
+        <reverted_from/>
+        <source>c86029f683e9221034af11b6feaad340</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 07:39:29</sys_created_on>
+        <sys_id>9390f1be832d221034af11b6feaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>196eca21c090000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 07:39:29</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>d390f1be372d22103adcb0c0f3dd9034</update_guid>
+        <update_guid_history>d390f1be372d22103adcb0c0f3dd9034:-559570012</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request New Hire Computer">fdb0b5be832d221034af11b6feaad3ac</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-20 07:39:55</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0c806c7dad6a4ce480ebd0502fe4bb24</sys_id>
+        <sys_metadata>0f90f1be832d221034af11b6feaad331</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request New Hire Computer</sys_name>
+        <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
+        <sys_parent display_value="">f00ea9ba832d221034af11b6feaad37c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
+        <sys_scope_delete display_value="">7c4851e1eff34146aa688165f5977e59</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_0f90f1be832d221034af11b6feaad331</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_0f90f1be832d221034af11b6feaad331">9390f1be832d221034af11b6feaad335</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-20 07:39:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
