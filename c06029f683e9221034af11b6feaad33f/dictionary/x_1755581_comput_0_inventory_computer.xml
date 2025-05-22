@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5df3653e83e9221034af11b6feaad324" label="Inventory Computer" max_length="40" name="x_1755581_comput_0_inventory_computer" type="collection">
-        <element choice="3" default="in_use" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+        <element choice="3" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
                 <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
             </choice>
         </element>
+        <element label="Assigned By" max_length="32" name="assigned_by" reference="sys_user" type="reference"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Current Stock" max_length="40" name="current_stock" type="integer"/>
-        <element display="true" label="Computer Model" mandatory="true" max_length="40" name="computer_model" type="string"/>
+        <element choice="3" label="Computer Model" mandatory="true" max_length="40" name="computer_model" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dell Precision 5560" sequence="7" value="dell_precision_5560"/>
+                <element inactive_on_update="false" label="Dell OptiPlex 7080" sequence="0" value="dell_optiplex_7080"/>
+                <element inactive_on_update="false" label="Apple iMac 27-inch" sequence="3" value="apple_imac_27_inch"/>
+                <element inactive_on_update="false" label="ASUS VivoBook S15" sequence="4" value="asus_vivobook_s15"/>
+                <element inactive_on_update="false" label="HP Z2 Mini G9" sequence="8" value="hp_z2_mini_g9"/>
+                <element inactive_on_update="false" label="HP EliteDesk 800 G6" sequence="1" value="hp_elitedesk_800_g6"/>
+                <element inactive_on_update="false" label="Acer Aspire 5 A515-56" sequence="5" value="acer_aspire_5_a515_56"/>
+                <element inactive_on_update="false" label="Lenovo IdeaPad 3 15ARE05" sequence="9" value="lenovo_ideapad_3_15are05"/>
+                <element inactive_on_update="false" label="Microsoft Surface Laptop 4" sequence="6" value="microsoft_surface_laptop_4"/>
+                <element inactive_on_update="false" label="Lenovo ThinkPad X1 Carbon" sequence="2" value="lenovo_thinkpad_x1_carbon"/>
+            </choice>
+        </element>
         <element label="Computer Id" mandatory="true" max_length="40" name="computer_id" type="string"/>
         <index name="index">
+            <element name="assigned_by"/>
+        </index>
+        <index name="index2">
             <element name="assigned_to"/>
         </index>
     </element>

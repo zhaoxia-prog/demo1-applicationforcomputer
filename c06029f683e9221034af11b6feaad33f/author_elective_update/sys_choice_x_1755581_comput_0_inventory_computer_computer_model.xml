@@ -15,5 +15,195 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2025-05-20 07:11:39</sys_updated_on>
         </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell OptiPlex 7080</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>dell_optiplex_7080</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HP EliteDesk 800 G6</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>hp_elitedesk_800_g6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo ThinkPad X1 Carbon</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>lenovo_thinkpad_x1_carbon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Apple iMac 27-inch</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>apple_imac_27_inch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ASUS VivoBook S15</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>asus_vivobook_s15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Acer Aspire 5 A515-56</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>acer_aspire_5_a515_56</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Microsoft Surface Laptop 4</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>microsoft_surface_laptop_4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dell Precision 5560</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>dell_precision_5560</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HP Z2 Mini G9</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>hp_z2_mini_g9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>computer_model</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lenovo IdeaPad 3 15ARE05</label>
+            <language>en</language>
+            <name>x_1755581_comput_0_inventory_computer</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-05-22 02:17:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-05-22 02:17:14</sys_updated_on>
+            <value>lenovo_ideapad_3_15are05</value>
+        </sys_choice>
     </sys_choice>
 </record_update>

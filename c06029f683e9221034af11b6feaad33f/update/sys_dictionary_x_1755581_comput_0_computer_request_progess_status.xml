@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="approver" table="x_1755581_comput_0_computer_request">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="progess_status" table="x_1755581_comput_0_computer_request">
         <active>true</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Approver</column_label>
+        <column_label>Process Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>In Process</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -21,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>approver</element>
+        <element>progess_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>32</max_length>
+        <max_length>40</max_length>
         <name>x_1755581_comput_0_computer_request</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="sys_user">sys_user</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-05-20 06:41:11</sys_created_on>
-        <sys_name>Approver</sys_name>
+        <sys_created_on>2025-05-22 03:22:05</sys_created_on>
+        <sys_name>Process Status</sys_name>
         <sys_package display_value="New Hire Computer Request" source="x_1755581_comput_0">c06029f683e9221034af11b6feaad33f</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Hire Computer Request">c06029f683e9221034af11b6feaad33f</sys_scope>
-        <sys_update_name>sys_dictionary_x_1755581_comput_0_computer_request_approver</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1755581_comput_0_computer_request_progess_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-20 06:41:12</sys_updated_on>
+        <sys_updated_on>2025-05-22 07:57:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="33d1e57a83e9221034af11b6feaad316" label="Computer Request" max_length="40" name="x_1755581_comput_0_computer_request" type="collection">
-        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
-        <element label="Assigned Date" max_length="40" name="assigned_date" type="glide_date"/>
+        <element label="Assigned Date" max_length="40" name="assigned_date" type="glide_date_time"/>
+        <element choice="3" default="In Process" label="Process Status" max_length="40" name="progess_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Process" sequence="1" value="in_process"/>
+                <element inactive_on_update="false" label="Completed" sequence="0" value="completed"/>
+            </choice>
+        </element>
         <element label="Notes" max_length="40" name="notes" type="string"/>
         <element choice="3" default="pending_approval" label="Approval Status" mandatory="true" max_length="40" name="approval_status" type="choice">
             <choice>
@@ -12,7 +17,7 @@
         </element>
         <element display="true" label="Request For" mandatory="true" max_length="32" name="request_for" reference="sys_user" type="reference"/>
         <element default="javascript:gs.getUserID();" dynamic_default_value="90d1921e5f510100a9ad2572f2b477fe" label="Request By" max_length="32" name="request_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
-        <element choice="3" default="dell_optiplex_7080" label="Computer Model" mandatory="true" max_length="32" name="computer_model" type="choice">
+        <element choice="3" label="Computer Model" mandatory="true" max_length="32" name="computer_model" type="choice">
             <choice>
                 <element inactive_on_update="false" label="HP EliteDesk 800 G6" sequence="1" value="hp_elitedesk_800_g6"/>
                 <element inactive_on_update="false" label="Acer Aspire 5 A515-56" sequence="5" value="acer_aspire_5_a515_56"/>
@@ -27,12 +32,9 @@
             </choice>
         </element>
         <index name="index">
-            <element name="approver"/>
-        </index>
-        <index name="index2">
             <element name="request_by"/>
         </index>
-        <index name="index3">
+        <index name="index2">
             <element name="request_for"/>
         </index>
     </element>
